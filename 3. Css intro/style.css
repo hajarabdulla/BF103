@@ -1,0 +1,55 @@
+/* sector */
+/* property and value --> declaration */
+
+/*! Element type selector */
+/* h1 {
+        color: yellow;
+        background-color: red;
+      } */
+
+/*! Class type selector (combinator) */
+
+/* .first-title {
+        color: pink;
+        background-color: black;
+      } */
+
+/*! Id selector */
+#add-btn {
+  color: aqua;
+  background-color: violet;
+}
+
+/* Inline css */
+/* Internal css */
+/* External css --> best practice */
+
+.box {
+  width: 100px;
+  height: 100px;
+  color: white;
+  border-radius: 10px;
+}
+
+#green-box {
+  /* background-color: green; */
+  background-color: rgba(255, 0, 85, 0.2);
+  /* background-color: #0000ff; */
+  /* background-color: hsla(65, 45%, 84%, 0.4); */
+}
+
+#blue-box {
+  background-color: blue;
+}
+
+#red-box {
+  background-color: red;
+}
+
+#purple-box {
+  background-color: purple;
+}
+
+/* red, green, blue */
+/* 0-255 */
+/* Alpha parameter --> transparency */
