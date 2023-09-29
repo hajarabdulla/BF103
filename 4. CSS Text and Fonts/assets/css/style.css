@@ -1,0 +1,47 @@
+
+@font-face {
+  font-family: PlexifySansBold;
+  src: url("./Pixelify_Sans/static/PixelifySans-Bold.ttf");
+}
+
+@font-face {
+  font-family: PlexifySansRegular;
+  src: url("./Pixelify_Sans/static/PixelifySans-Regular.ttf");
+}
+
+p {
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+
+  /* font-family: "Mulish", sans-serif; */
+}
+
+/* .plex {
+  font-family: "Pixelify Sans", cursive;
+} */
+
+p {
+  font-family: PlexifySansRegular;
+}
+i {
+  color: green;
+  font-size: 45px;
+}
+
+/* svg */
+
+button {
+  border: none;
+  border-radius: 28px;
+
+  background-color: #2bd0d0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding: 13px 40px;
+  text-transform: capitalize;
+}

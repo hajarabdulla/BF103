@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#word-1 {
+  background-color: plum;
+
+  display: block;
+  width: 100px;
+  height: 100px;
+
+  margin: 10px;
+}
+
+#word-2 {
+  background-color: tomato;
+
+  display: inline;
+  width: 100px;
+  height: 100px;
+
+  margin: 10px;
+}
+
+#word-3 {
+  background-color: slateblue;
+
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+
+  margin: 10px;
+}
+
+/* Inline elemenler width ve height qebul etmir */
+/* Inline elemenler margin-top ve margin-bottom qebul etmir */
+
+.random-element {
+  padding-top: 10px;
+}
+
+header {
+  background-color: red;
+}
+
+h1,
+li,
+nav,
+ul {
+  display:none;
+}
+
+/* figma */

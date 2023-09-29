@@ -1,0 +1,46 @@
+/* Universal selector */
+/* * {
+  background-color: blue;
+  color: white;
+} */
+
+/* .title {
+  color: green;
+} */
+
+/* #title {
+  color: purple;
+} */
+
+/* h1 {
+  color: red !important;
+} */
+
+/* 1 */
+/* 10 */
+/* 100 */
+
+/* Inline element specificty: 1000 */
+
+/* 20 */
+.btn.add-btn {
+  /* color: aquamarine; */
+  background-color: black;
+  padding: 10px;
+}
+
+/* 11 */
+button.btn {
+  color: violet;
+}
+
+h1.btn {
+  color: yellow;
+}
+/* 11 */
+
+/* Descendant selector */
+h1 {
+  color: pink;
+}
+/* 2 */
