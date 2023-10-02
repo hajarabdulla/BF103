@@ -1,0 +1,47 @@
+/* vh, vw */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* vh, vw--> deyeri body-e gore teyin edir */
+/* px --> parent-e gore teyin edir */
+
+/* .wrapper{
+    height: 600px;
+    width: 60%;
+
+    background-color: aliceblue;
+} */
+
+/* .box { */
+/* width: 200px;
+  height: 200px; */
+/* height: 200vh;
+  width: 30vw; */
+
+/* height: 50%;
+  width: 50%; */
+
+/* background-color: pink; */
+/* } */
+
+/* 1em = 16px */
+
+/*em -> olchunu font size-dan goturur */
+/* rem => olchunu root-dan alir (browser, html) */
+/* .wrapper {
+  font-size: 40px;
+} */
+
+/* html {
+  font-size: 50px;
+} */
+
+/* .box {
+  width: 3rem;
+  height: 3rem;
+  background-color: blue;
+} */
