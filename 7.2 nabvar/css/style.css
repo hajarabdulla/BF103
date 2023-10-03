@@ -1,0 +1,55 @@
+header {
+  background: palevioletred;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important; */
+  padding: 2.5rem;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(33, 40, 50);
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  background-color: blue;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+nav > ul > li:nth-child(2) {
+  position: relative;
+}
+
+.dropdown {
+  display: none;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: 35px;
+}
+
+nav > ul > li:nth-child(2):active .dropdown {
+  display: block;
+}

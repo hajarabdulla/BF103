@@ -1,0 +1,15 @@
+body{
+    height: 50vh;
+}
+
+.box {
+  width: 50%;
+  height: 60%;
+  background-color: tomato;
+
+  max-width: 300px;
+  max-height: 200px;
+
+  min-width: 100px;
+  min-height: 100px;
+}
