@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .area {
+  width: 800px;
+  height: 800px;
+  background: yellow;
+  position: relative;
+} */
+
+/* .box { */
+/* transform: translate(100px, 200px); */
+/* width: 150px;
+  height: 150px;
+  background-color: slateblue; */
+/* position: absolute;
+  top:50%;
+  left: 50%; */
+/* transform: translate(-50%, -50%); */
+/* transform: translateX(50px);
+  transform: rotate(); */
+/* background-color: red;
+  background-color: green; */
+/* transform: skew(20deg);
+} */
+
+/* .box:hover{
+  transform: scale(2);
+
+} */
+
+/* .box {
+  width: 150px;
+  height: 150px;
+  background-color: slateblue; */
+/* transition-property: width; */
+/* transition-duration: 2s; */
+
+/* transition: width .3s, height .3s; */
+/* transition: .5s all ;
+  transition-timing-function: cubic-bezier(.81,1.28,.34,-0.01); */
+
+/* } */
+
+/* .box:hover{ */
+/* width: 500px; */
+/* height: 300px;
+    transform: translate(50px); */
+/* } */
+
+/* .img-box {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  transition: all 3s;
+}
+
+img:hover {
+  transform: scale(1.5);
+} */
+
+/* .area {
+  height: 100vh;
+  position: relative;
+}
+
+.car-img {
+  position: absolute;
+  top: 500px;
+  top: 300px;
+  z-index: 9;
+  transition: all 2s;
+}
+
+.car-img:hover {
+  transform: translateX(2000px);
+}
+
+.grass {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+} */
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  animation-name: changeColor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changeColor {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+
+  /* 0% {
+    background-color: red;
+  }
+  10% {
+    background-color: green;
+  }
+  20% {
+    background-color: blue;
+  }
+  30% {
+    background-color: yellow;
+  }
+  40% {
+    background-color: violet;
+  }
+  50% {
+    background-color: pink;
+  }
+  60% {
+    background-color: violet;
+  }
+  70% {
+    background-color: yellow;
+  }
+  80% {
+    background-color: blue;
+  }
+  90% {
+    background-color: green;
+  }
+  100% {
+    background-color: red;
+  } */
+}
