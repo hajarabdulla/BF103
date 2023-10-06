@@ -1,0 +1,93 @@
+$bgColor: deeppink;
+
+%dangerAlert {
+  border: 1px solid rgb(217, 62, 62);
+  background-color: rgba(212, 99, 99, 0.531);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+%successAlert {
+  border: rgb(47, 240, 47);
+  background-color: rgba(32, 186, 32, 0.364);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@mixin flexBox($direction, $alignItems: center) {
+  display: flex;
+  justify-content: space-around;
+  align-items: $alignItems;
+  flex-direction: $direction;
+}
+
+header {
+  background-color: $bgColor;
+  color: white;
+  @include flexBox(row-reverse);
+}
+
+.btn-group {
+  @include flexBox(column-reverse, flex-start);
+  margin-top: 20px;
+
+  & .btn {
+    // width: 50px;
+    padding: 10px;
+    color: white;
+    background-color: $bgColor;
+    border-radius: 10px;
+  }
+}
+
+.alert-danger {
+  @extend %dangerAlert;
+}
+
+.alert-success {
+  @extend %successAlert;
+}
+
+@mixin checkCircle($circle: false) {
+  width: 50px;
+  height: 50px;
+  background-color: deepskyblue;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @if $circle {
+    border-radius: 50%;
+  }
+}
+
+.icon-wrapper {
+  @include checkCircle();
+}
+
+.circle {
+  @include checkCircle(true);
+}
+
+$sizes: 100px, 150px, 200px, 250px;
+
+@each $size in $sizes {
+  .icon-#{$size} {
+    width: $size;
+    height: $size;
+    background-color: red;
+    margin-bottom: 10px;
+  }
+};
+
+@function doubleSize ($size){
+    @return $size *2;
+}
+
+p{
+    font-size: doubleSize(10px);
+}
+
+

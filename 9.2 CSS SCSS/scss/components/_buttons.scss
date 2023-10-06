@@ -1,0 +1,21 @@
+@use "varibales";
+
+.btn-primary {
+  @include btnMixin($primaryColor);
+}
+
+.btn-secondary {
+  @include btnMixin($secondaryColor, #fff);
+}
+
+.btn-danger {
+  @include btnMixin($dangerColor, #fff);
+}
+
+.btn-info {
+  @include btnMixin($infoColor);
+}
+
+.btn-warning {
+  @include btnMixin($warningColor);
+}

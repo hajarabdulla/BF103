@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.btn-primary {
+  padding: 10px;
+  background: #92ecdd;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.btn-secondary {
+  padding: 10px;
+  background: #5c63c7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.btn-danger {
+  padding: 10px;
+  background: #ff0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.btn-info {
+  padding: 10px;
+  background: #68bddf;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.btn-warning {
+  padding: 10px;
+  background: #f6bf44;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}/*# sourceMappingURL=style.css.map */

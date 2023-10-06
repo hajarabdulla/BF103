@@ -1,0 +1,23 @@
+@mixin checkCircle($circle: false) {
+  width: 50px;
+  height: 50px;
+  background-color: deepskyblue;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @if $circle {
+    border-radius: 50%;
+  }
+}
+
+@mixin btnMixin($bgColor, $color: black) {
+  padding: 10px;
+  background: $bgColor;
+  color: $color;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
